@@ -13,7 +13,7 @@ const generateHero = () => {
   p.textContent =
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas itaque nesciunt similique eius dolores deleniti qui quidem hic quia cupiditate, minima ullam veritatis mollitia dolorum maxime magni! Saepe, inventore dolore!";
   hero1.appendChild(h1);
-  hero1.appendChild(p)
+  hero1.appendChild(p);
   const imagem = document.createElement("div");
   imagem.classList.add("imagem");
   hero.appendChild(imagem);

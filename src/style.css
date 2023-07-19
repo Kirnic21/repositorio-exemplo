@@ -5,23 +5,22 @@
   padding: 0;
   box-sizing: border-box;
 }
-#header{
-    display:flex;
-    justify-content: space-between;
-    font-size: 10vh;
-    background-color: #ccd5ae;
+#header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10vh;
+  background-color: #ccd5ae;
 }
-.buttons{
-    display: flex;
-    gap:0px;
-    height: 100%;
-;
+.buttons {
+  display: flex;
+  gap: 0px;
+  height: 100%;
 }
-.pagina{
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    padding: 50px;
+.pagina {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  padding: 50px;
 }
 
 .pagina {
@@ -31,102 +30,122 @@
   padding: 50px;
   font-size: 16px;
 
-  background-color: #fefae0; 
-  color: #333; 
+  background-color: #fefae0;
+  color: #333;
   cursor: pointer;
-  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  transition:
+    background-color 0.3s,
+    color 0.3s,
+    border-color 0.3s;
 }
 
-
 .pagina:hover {
-  background-color: #fdecb3; 
-  border-color: #fdecb3; 
+  background-color: #fdecb3;
+  border-color: #fdecb3;
   color: #333;
 }
 
-
 .pagina:focus {
-  outline: none; 
-  box-shadow: 0 0 5px #fefae0; 
+  outline: none;
+  box-shadow: 0 0 5px #fefae0;
 }
 .fa {
-    padding: 45px;
-    font-size: 30px;
-    width: 50px;
-    
-    text-align: center;
-    text-decoration: none;
-  }
-  .fa:hover {
-    opacity: 0.7;
-  }
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-  .logo{
-    height: 120px;
-    width: 120px;
-  }
-  #logo{
-    height: 100%;
-    width: 100%;
-  }
-  #logo-titulo{
-    display: flex;
-    justify-content: space-between;
-  }
-  .hero{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    padding:90px;
-    background-color: #e9edc9;
-  }
-  .hero1 {
-    flex-basis: 400px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-right: 50px;
+  padding: 45px;
+  font-size: 30px;
+  width: 50px;
+
+  text-align: center;
+  text-decoration: none;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.logo {
+  height: 120px;
+  width: 120px;
+}
+#logo {
+  height: 100%;
+  width: 100%;
+}
+#logo-titulo {
+  display: flex;
+  justify-content: space-between;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  background-color: #e9edc9;
+}
+.hero1 {
+  flex-basis: 400px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-right: 50px;
 }
 h1 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #F9FAF8;
-    margin: 0;
-    font-family: 'Roboto', arial;
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+  margin: 0;
+  font-family: "Roboto", arial;
 }
-#imagem{
-    width: 500px;
-    height: 350px;
+#imagem {
+  width: 500px;
+  height: 350px;
 }
 
 .card {
-     background-color:#faedcd;
-    color: black;
-    text-align: center;
-    height: 200px;
+  background-color: #faedcd;
+  color: black;
+  text-align: center;
+  height: 200px;
 
-    gap:0px;
- }
- .card p {
-    color: black;
-    font-weight: normal;
-    font-size: 14px;
-    padding: 5px;
+  gap: 0px;
+}
+.card p {
+  color: black;
+  font-weight: normal;
+  font-size: 14px;
+  padding: 5px;
 }
 
 .title {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
- .produtos {
-    display: grid;
-    grid-template-rows: repeat(auto-fit,minmax(100px,1fr));
-    grid-template-columns: repeat(2,1fr);
-    grid-column-start: 1;
-    grid-column-end: 3;
-    background-color: #fefae0;
+.produtos {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-color: #fefae0;
+}
+#contatos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e9edc9;
+}
+.contato {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px;
+  padding: 50px;
+  background-color: #faedcd;
+  width: 50%;
+  height: 50%;
+  font-family: "Scarlet";
+  font-size: 35px;
 }
